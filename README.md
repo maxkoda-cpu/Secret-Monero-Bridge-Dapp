@@ -2,6 +2,7 @@
 Secret Monero Bridge Decentralized Application
 
 **Secret Monero Bridge Dapp v0.0.1:** https://ipfs.io/ipfs/Qmdy9Ups2Ru3ycKAiCre9zomRbFqgts1eAcvG43E2CcQTt/
+
 The first release of the Secret Monero Bridge Dapp on the testnet for testing and evaluation purposes.
 
 The Dapp has been designed as an **unstoppable/uncensorable** application. It resides in IPFS and is not hosted on a centralized server. The Dapp does not interact with any centralized server.
