@@ -3,7 +3,7 @@ Secret Monero Bridge Decentralized Application
 
 **Secret Monero Bridge Dapp v0.0.1:** https://ipfs.io/ipfs/Qmdy9Ups2Ru3ycKAiCre9zomRbFqgts1eAcvG43E2CcQTt/
 
-The first release of the Secret Monero Bridge Dapp on the testnet for testing and evaluation purposes.Bridge fee for deposits and withdrawals is 0.0032 sXMR.
+The first release of the Secret Monero Bridge Dapp on the testnet for testing and evaluation purposes. The bridge fee for deposits and withdrawals is 0.0032 sXMR.
 
 **How To Document:** https://github.com/scrtisland/secretxmr/blob/main/README.md
 
