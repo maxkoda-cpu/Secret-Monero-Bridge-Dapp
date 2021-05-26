@@ -5,6 +5,10 @@ Secret Monero Bridge Decentralized Application
 
 The first release of the Secret Monero Bridge Dapp on the testnet for testing and evaluation purposes.
 
+**How To Document:** https://github.com/scrtisland/secretxmr/blob/main/README.md
+
+(Special thanks to **JC | SCRTisland** for compiling this document!)
+
 The Dapp has been designed as an **unstoppable/uncensorable** application. It resides in IPFS and is not hosted on a centralized server. The Dapp does not interact with any centralized server.
 
 The testnet Dapp's immutable hash ( **Qmdy9Ups2Ru3ycKAiCre9zomRbFqgts1eAcvG43E2CcQTt** ) will never change. The testnet Dapp content is mutable and can be versioned from within the immutable hash. Think of the immutable hash as an outer container that holds mutable content in an inner container. Any time the Dapp is versioned, the contents of the inner container are replaced with new content. This allows users to bookmark the immutable hash on an IPFS public gateway and never worry about the URL ever changing.
