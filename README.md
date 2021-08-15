@@ -12,7 +12,7 @@ The decentralized web application is distributed over IPFS. It has been designed
 
 **Keplr wallet behavior with our IPFS distribution**
 
-Our Dapp enables the use of the Keplr wallet and the Keplr wallet asks users to authorize a domain for wallet access. This is a potential security risk which we have communicated as an issue at: https://github.com/chainapsis/keplr-extension/issues/136
+Our Dapp enables the use of the Keplr wallet and the Keplr wallet asks users to authorize a domain for wallet access. This, paired with our approach to distributing our Dapp over IPFS is a potential security risk which we have communicated as an issue at: https://github.com/chainapsis/keplr-extension/issues/136
 
 The Keplr wallet extension effectively authorizes the domain of the IPFS public gateway to access the wallet. This is undesirable and presents the potential security risk. We have asked users to remove the IPFS public gateway authorization (Settings->Manage Connections) when they are finished using the Secret Monero Bridge Dapp. However, this measure is not satisfactory in that if the user forgets to do this, the security risk remains.
 
