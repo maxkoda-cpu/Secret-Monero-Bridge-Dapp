@@ -26,4 +26,4 @@ Our Dapp enables the use of the Keplr wallet and the Keplr wallet asks users to 
 
 The Keplr wallet extension effectively authorizes the domain of the IPFS public gateway to access the wallet. This is undesirable and presents the potential security risk. We have asked users to remove the IPFS public gateway authorization (Settings->Manage Connections) when they are finished using the Secret Monero Bridge Dapp. However, this measure is not satisfactory in that if the user forgets to do this, the security risk remains.
 
-We will be releasing a simple utility application (written in the Go programming language) that loads the Dapp from localhost which will eliminate this security risk. The source code for the utility application will be maintained here. 
+We will be releasing a simple Electron application that loads the Dapp from localhost which will eliminate this security risk. The source code for the utility application will be maintained here. 
