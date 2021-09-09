@@ -17,6 +17,7 @@ You can help us keep the Secret Monero Bridge Dapp unstoppable by pinning the fo
 * Secret Monero Bridge Dapp - Skeleton: QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA
 * Secret Monero Bridge Dapp - Content: QmUg4CpT22u5TW9ie8tyXYXbifRCWFdMYu4TZpCFDST3UM
 * Secret Monero Bridge Dapp - Master json file: QmWiAcKu2iUyLX2yroKoYLLVhRFHb3Myun8jERrZyo7eSr
+* Secret Monero Bridge Gateway Checker: QmfQRHezuFRfFY3vi3623qraXFepZ3anEGdtPRJfX7dgT1
 
 If you pin these files in your IPFS repository it will help support the project!
 
