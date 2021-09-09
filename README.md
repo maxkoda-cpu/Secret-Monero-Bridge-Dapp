@@ -15,8 +15,8 @@ The decentralized web application is distributed over IPFS. It has been designed
 The more IPFS repositories that pin our IPFS content the more unstoppable and uncensorable the Secret Monero Bridge Dapp will be.
 You can help us keep the Secret Monero Bridge Dapp unstoppable by pinning the following hashes in your IPFS repository:
 * Secret Monero Bridge Dapp - Skeleton: QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA
-* Secret Monero Bridge Dapp - Content: QmU3vv57heMiuJ7GcNSodxgqdVEWgbEcVKTyUVx7JNmu7e
-* Secret Monero Bridge Dapp - Master json file: Qmbua69AXaougqyctQKMjpNd1EsDA4FbeKUmiMsVnKtM9r
+* Secret Monero Bridge Dapp - Content: QmUg4CpT22u5TW9ie8tyXYXbifRCWFdMYu4TZpCFDST3UM
+* Secret Monero Bridge Dapp - Master json file: QmWiAcKu2iUyLX2yroKoYLLVhRFHb3Myun8jERrZyo7eSr
 
 If you pin these files in your IPFS repository it will help support the project!
 
