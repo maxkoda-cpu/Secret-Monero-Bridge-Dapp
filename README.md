@@ -10,16 +10,6 @@ Blog post: https://scrt.network/blog/secret-monero-bridge-is-live-on-mainnet
 
 The decentralized web application is distributed over IPFS. It has been designed with an immutable hash (QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA) to load the mutable application code that can be versioned over time. The souce for the decentralized web application will be placed here in the github repository will be in a more readable form than that distributed over IPFS which is minimized to improve performance (while reducing readability).
 
-**Secret Monero Bridge Decentralized Application IPFS hashes**
-
-The more IPFS repositories that pin our IPFS content the more unstoppable and uncensorable the Secret Monero Bridge Dapp will be.
-You can help us keep the Secret Monero Bridge Dapp unstoppable by pinning the following hashes in your IPFS repository:
-* Secret Monero Bridge Dapp - Skeleton: QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA
-* Secret Monero Bridge Dapp - Content: QmUg4CpT22u5TW9ie8tyXYXbifRCWFdMYu4TZpCFDST3UM
-* Secret Monero Bridge Dapp - Master json file: QmWiAcKu2iUyLX2yroKoYLLVhRFHb3Myun8jERrZyo7eSr
-* Secret Monero Bridge Gateway Checker: QmfQRHezuFRfFY3vi3623qraXFepZ3anEGdtPRJfX7dgT1
-
-If you pin these files in your IPFS repository it will help support the project!
 
 **Keplr wallet behavior with our IPFS distribution**
 
