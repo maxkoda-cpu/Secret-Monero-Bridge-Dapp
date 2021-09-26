@@ -6,9 +6,9 @@ The Secret Monero Bridge has been released on the Secret Network mainnet!
 Blog post: https://scrt.network/blog/secret-monero-bridge-is-live-on-mainnet
 
 
-**Secret Monero Bridge Dapp v0.0.1:** https://ipfs.io/ipfs/QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA
+**Secret Monero Bridge Dapp v0.0.2:** https://ipfs.io/ipns/k51qzi5uqu5dhovcugri8aul3itkct8lvnodtnv2y3o1saotkjsa7ao1aq0dqa/
 
-The decentralized web application is distributed over IPFS. It has been designed with an immutable hash (QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA) to load the mutable application code that can be versioned over time. The souce for the decentralized web application will be placed here in the github repository will be in a more readable form than that distributed over IPFS which is minimized to improve performance (while reducing readability).
+We had to deploy a new version of the Dapp after the exploit on the secret-2 chain because our immutable hash used https://api.secretapi.io to read the location of the current Dapp hash. https://api.secretapi.io still connects to the secret-2 chain which has been halted, thus the need to deploy a new immutable hash.
 
 
 **Keplr wallet behavior with our IPFS distribution**
