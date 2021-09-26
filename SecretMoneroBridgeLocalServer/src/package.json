@@ -1,0 +1,80 @@
+{
+  "name": "secret-monero-bridge-local-server",
+  "version": "1.0.0",
+  "description": "Local Web Server for Secret Monero Bridge",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps",
+    "pack": "electron-builder --publish=never"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "Secret",
+    "Monero",
+    "Bridge",
+    "XMR",
+    "sXMR"
+  ],
+  "author": "secret-monero-bridge-local-server",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^15.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "fs-extra": "^10.0.0",
+    "ipfs": "^0.59.0",
+    "ipfs-core": "^0.11.0",
+    "node-fetch": "^2.6.5",
+    "node-static": "^0.7.11",
+    "prom-client": "^11.5.3",
+    "tarball-extract": "^0.0.6",
+    "tcp-port-used": "^1.0.2"
+  },
+  "build": {
+    "appId": "net.monerobridge-electron-builder",
+    "productName": "SecretMoneroBridgeLocalServer",
+    "artifactName": "SecretMoneroBridgeLocalServer-${version}.${ext}",
+    "linux": {
+      "category": "Finance",
+      "desktop": {
+        "Comment": "Secret Monero Bridge Local Server",
+        "Name": "Secret Monero Bridge App",
+        "StartupNotify": "true",
+        "Terminal": "false",
+        "Type": "Application",
+        "Categories": "Finance;"
+      },
+      "executableName": "Secret-Monero-app",
+      "maintainer": "smb@.main.i2p",
+      "target": [
+        "AppImage"
+      ],
+      "icon": "resources/icon512.png"
+    },
+    "mac": {
+      "category": "public.app-category.finance",
+      "icon": "resources/icon512.png",
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "asar": false,
+      "icon": "resources/icon256.ico",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+    },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    }
+  }
+}
