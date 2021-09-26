@@ -1,10 +1,20 @@
-We created this application to address a security risk with the Keplr wallet extension.
+# Secret Monero Bridge Local Web Server
 
-The binaries for Linux, macOS, and Windows can be downloaded from the **Secret Monero Bridge Gateway Checker** page at: https://ipfs.io/ipfs/QmNRrLDhKGZCSXAZcPU1cBTaLouhWnTi5kfWUzJB4nJbzA
+The **Secret Monero Bridge Local Web Server** is a barbones HTTP local web server that serves the Secret Monero Bridge Dapp, web content.  
 
-We opened an issue on the Keplr github: https://github.com/chainapsis/keplr-extension/issues/136
+The user can interact with the Dapp served from their Localhost.
 
-The security risk is described in the document named: KeplrWalletSecurityRisk.pdf
-The document can be obtained via IPFS: QmYgNyDJ4zvjKePy3Ti2Jdmq2Boiw7LEXLBLKZ9pEZqYqA
+On startup the application will sync the latest Dapp content to the users "home" dir where they will be served on localhost via the electron application.
+
+Nothing is ever sent to any server from this application.
+
+
+--Install--
+1. Copy all source files to an empty directory
+2. cd into the directory
+3. npm install
+4. To run "npm run start"
+5. To build "npm run pack"
+
 
 
