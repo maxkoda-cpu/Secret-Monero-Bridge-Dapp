@@ -10,6 +10,8 @@ Blog post: https://scrt.network/blog/secret-monero-bridge-is-live-on-mainnet
 
 We had to deploy a new version of the Dapp after the exploit on the secret-2 chain because our immutable hash used https://api.secretapi.io to read the location of the current Dapp hash. https://api.secretapi.io still connects to the secret-2 chain which has been halted, thus the need to deploy a new immutable hash.
 
+**Do not use the v0.0.1 Dapp !** Deposits will work but withdrawals will not because v0.0.1 connects to the secret-2 chain.
+
 
 **Keplr wallet behavior with our IPFS distribution**
 
